@@ -6,7 +6,7 @@ class Multiples
   
   def initialize(limit)
     @limit = limit
-    raise Argument Error if(limit.is_a? INTEGER)
+    raise ArgumentError if(limit.is_a? INTEGER)
   end 
   
   def collect_multiples
